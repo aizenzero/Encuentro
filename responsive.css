@@ -1,0 +1,587 @@
+@media (max-width:1110px) {
+    .secondContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .secondContainer h1{
+        grid-column: span 1;
+      
+    }
+
+    .secondContainer img{
+        align-items: center;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+
+    .forth_img{
+     margin-right: 3rem;
+      
+    }
+
+/*----------------------------------*/
+
+    .firstContact h1{
+    font-size: 1.7rem;
+    }
+
+    .firstContact{
+        width: 400px;
+    }
+
+    .firstContact input{
+        width: 150px;
+    }
+
+    .firstContact button{
+        width: 180px;
+      
+      
+    }
+
+    .secondContact img{
+      width: 100%;
+       
+    }
+}
+
+
+
+/*---------------------------*/
+
+@media (max-width:1080px) {
+
+
+    .fifth_img{
+        margin-left: 0rem;
+       
+    }
+    
+
+
+
+
+
+    /*---------------------------*/
+
+    .customerContainer{
+
+        display:block;
+        width: 830px;
+        margin:0 auto;
+    }
+
+    
+    .customergrid{
+        margin-bottom: 2rem;
+  
+    }
+
+
+    .baristaImage{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: auto;
+        row-gap: .5rem;
+        column-gap: .1rem;
+       
+    }
+
+    /*---------------------------*/
+
+    
+    .firstContact h1{
+        margin-bottom: 1rem;
+    }
+
+    .firstContact input{
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+
+    .firstContact button{
+        margin-top: 1rem;
+    }
+
+    .contactContainer{
+        grid-template-columns: 1fr;
+       
+    }
+    .firstContact{
+        margin: auto;
+        width: 600px;
+        margin-bottom: 2rem;
+    
+    }
+    .secondContact{
+        margin: 0 auto;
+    }
+
+    .secondContact img{
+        width:600px;
+  
+    }
+
+
+}
+
+   /*--------------------------------------------*/
+
+   @media (max-width:950px) {
+        .secondContainer{
+            display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: auto auto;
+    
+    }
+
+
+
+
+    .thirdContainer{
+        grid-template-columns:1fr;
+        row-gap: 2rem;
+        
+    }
+
+    .third_img{
+       margin-left: 5rem;
+    }
+
+    .forthContainer{
+        grid-template-columns:1fr;
+        row-gap: 2rem;
+        
+    }
+
+    .forth_img{
+        margin-left: 5rem;
+     }
+
+    .fifthContainer{
+        grid-template-columns:1fr;
+        row-gap: 2rem;
+        
+    }
+
+    .fifth_img{
+        margin-left: 5rem;
+     }
+
+
+
+   }
+
+
+
+
+   /*--------------------------------------------*/
+
+   @media (max-width:880px) {
+
+    .customergrid{
+        width: 80%;
+    }
+    .baristaImage{
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+    
+       
+    }
+
+    footer{
+        font-size: .8rem;
+        padding: 3rem;
+    }
+
+
+
+   /*--------------------------------------------*/
+
+    .firstContact{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: auto ;
+        width: 400px;
+    
+    }
+    .firstContact h1{
+        grid-column: span 1;
+    }
+    .firstContact input{
+        width: 20rem;
+    }
+
+    
+    .firstContact button{
+        grid-column: span 1;
+        width: 22rem;
+
+    }
+
+    .secondContact img{
+        width:400px;
+        margin:0 auto;
+       
+    }
+
+ 
+    
+   }
+
+
+   @media (max-width:720px) {
+
+    
+header ul li{
+   display: none;
+}
+
+    .third_img{
+       margin-left: 0rem;
+       border-radius: 200rem 400rem 600rem 800rem;
+        width: 80%;
+     }
+     .third_img img{
+        
+        width: 100%;
+     }
+
+     .forth_img{
+        margin-left: 0rem;
+        border-radius: 800rem 400rem 800rem 800rem;
+        width: 80%;
+      }
+      .third_img img{
+         
+         width: 100%;
+      }
+
+      .fifth_img{
+        margin-left: 0rem;
+        border-radius: 1000rem 500rem 1500rem 800rem;
+        width: 80%;
+      }
+      .third_img img{
+         
+         width: 100%;
+      }
+
+      /*------------------------------------------------*/
+
+      .customergrid{
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin-left: 4rem;
+        width: 400px;
+      }
+
+      #csFeedback{
+        grid-column: span 1;
+      }
+
+      .baristaImage{
+        width: 400px;
+       column-gap: 1rem;
+       row-gap: 1rem;
+       padding: 1rem;
+    }
+    .baristaImage img {
+        width: 90%;
+    }
+
+      /*------------------------------------------------*/
+
+    .contactContainer{
+        font-size: .8rem;
+        margin: .5rem;
+        padding: .5rem;
+    }
+
+    .contactContainer h1{
+        margin-top: 1rem;
+    }
+
+    .firstContact{
+        width: 65%;
+        padding: .1rem;
+       
+        
+    }
+
+  
+
+
+
+   }
+
+
+   @media (max-width:650px) {
+
+    .firstContainer{
+        height: 60vh;
+    }
+
+
+
+   .fContainer p{
+        font-size: 3rem;
+   }
+
+
+    .secondContainer {
+        font-size: .9rem;
+        width: auto;
+    }
+
+    .secondContainer img{
+        width: 80%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .thirdContainer{
+        width: 25rem;
+        
+    }
+
+    .third_img{
+        width: 80%;
+        height: 80%;
+        border-radius: 50rem 5rem 50rem 50rem;
+    }
+    .third_img img{
+      width: 90%;
+      height: 60%;
+    }
+
+
+    .forthContainer{
+        width: 65%;
+        
+    }
+
+    .forth_img{
+        width: 80%;
+        height: 80%;
+        border-radius: 50rem 5rem 50rem 50rem;
+    }
+    .forth_img img{
+      width: 90%;
+      height: 60%;
+    }
+
+
+    .fifthContainer{
+        width: 65%;
+        
+    }
+
+    .fifth_img{
+        width: 80%;
+        height: 80%;
+        border-radius: 50rem 5rem 50rem 50rem;
+    }
+    .fifth_img img{
+      width: 90%;
+      height: 60%;
+    }
+
+
+    .customerContainer{
+        padding: 0rem;
+    }
+
+    #csFeedback{
+        margin-top: 1rem;
+    }
+
+
+    .customerContainer{
+        margin-right: 0;
+        width: 500px
+    }
+
+
+
+    .customergrid{
+        width: 50%;
+        margin: 1rem;
+        margin-left: 5rem;
+    }
+
+    .baristaImage{
+        margin-left: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .firstCustomer img{
+        width: 5rem;
+        height: 5rem;
+    }
+
+
+    .contactContainer{
+        width: 27rem;
+    }
+
+
+    .firstContact{
+        margin-right: 12rem;
+        padding: 1rem;
+    }
+
+    .secondContact{
+        margin-right: 12rem;
+    }
+
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 1rem;
+    }
+    footer p{
+        margin-bottom: .5rem;
+    }
+
+
+
+
+   }
+
+
+
+   @media (max-width:430px) {
+
+    header h1{
+        font-size: 1.3rem;
+       
+    }
+        
+    header{
+        width: 94%;
+        display: flex;
+        justify-content:center;
+    }
+    header input{
+        margin: 0;
+    }
+
+
+
+        .fContainer{
+            width: 350px;
+        }
+
+        .thirdContainer{
+            margin: 0;
+            width: 290px;
+            margin: 1rem 0;
+        }
+
+
+        .third_img img{
+            width: 90%;
+        }
+
+        .forthContainer{
+            margin: 0;
+            width: 300px;
+            margin: 1rem 0;
+        }
+
+        .forth_img img{
+            width: 90%;
+        }
+
+        .fifthContainer{
+            margin: 0;
+            width: 290px;
+            margin: 1rem 0;
+        }
+
+        .fifth_img img{
+            width: 90%;
+        }
+
+
+        .customerContainer{
+            width: 26rem;
+            margin-bottom: 1rem;
+        }
+
+        .customergrid{
+            margin: 1rem;
+        }
+
+        .baristaImage{
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows:auto ;
+            margin: 0;
+            width: 24rem;
+            padding: 0%;
+            padding: 1rem;
+        }
+
+        .baristaImage img{
+            width: 70%;
+        }
+
+
+        .contactContainer{
+            
+            padding: 0%;
+            padding-top: 1rem;
+            margin: 0%;
+            width: 25rem;
+        }
+
+        .firstContact{
+            width: max-content;
+            margin: 0%;
+            margin-left:.2rem ;
+            margin-bottom: 1rem;
+        }
+
+        .secondContact{
+            width: max-content;
+        }
+        .secondContact img{
+            width: 400px;
+        }
+
+
+        footer{
+            margin-top: 1rem;
+            column-gap: 2rem;
+            padding: 2rem;
+            border-radius: 1rem;
+        }
+
+        footer h4{
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+
+
+
+
+
+
+
+
+
+   }

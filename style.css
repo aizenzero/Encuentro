@@ -1,0 +1,393 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+header{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 1;
+    
+ 
+}
+header h1{
+    background-color: black;
+    color: white;
+    margin-right: 4rem;
+}
+
+header h1 span{
+    color: red;
+}
+
+header ul li{
+    display: inline;
+    margin-right: 2rem;
+}
+
+header ul li a{
+    color: white;
+    
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color:red;
+   
+}
+
+header input{
+    padding: .5rem;
+    border-radius: .3rem;
+    margin-right: 2rem;
+}
+
+/*-------------------------First Container ------------------*/
+
+.firstContainer{
+    background-image: url(./images/b.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 100vh;
+   
+
+}
+
+
+
+ .fContainer{
+    /* background-color: red; */
+    color: white;
+    position: relative;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding-top: 7rem;
+    
+ }
+
+ .fContainer p{
+    font-size: 4rem;
+ }
+
+ .fContainer button{
+    padding: .7rem;
+    border-radius: .5rem;
+    background-color: green;
+ }
+
+ .fContainer button:hover{
+    background-color: red;
+ }
+
+
+/*-------------------------Second Container ------------------*/
+
+.secondContainer{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:auto;
+    align-items: center;
+    padding: 2rem 5rem;
+    padding-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+}
+
+.secondContainer h1{
+    grid-column: span 2;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  
+}
+
+.secondContainer img{
+    border-radius: 5rem;
+}
+
+.secondContainer button{
+    margin-top: .5rem;
+    font-weight: bold;
+    padding: .7rem;
+    border-radius: .4rem;
+    background-color: rgba(7, 224, 7, 0.678);
+    color: rgb(7, 7, 7);
+}
+.secondContainer button:hover{
+    background-color: red;
+}
+
+
+/*-------------------------Third Container ------------------*/
+
+.thirdContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    padding: 2rem 4rem;
+    margin: 2rem 4rem;
+    border-radius: 1rem;
+    /* background-color: rgba(128, 128, 128, 0.178); */
+    background-color:rgba(210, 105, 30, 0.459);
+}
+.third_p h1{
+    font-size: 3rem;
+}
+
+.third_img{
+    margin-left: 10rem;
+    background-color: rgba(170, 32, 32, 0.336);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 100rem 200rem 500rem 1000rem;
+    box-shadow: 1rem 1rem rgba(255, 255, 255, 0.486);
+}
+
+.third_img img{
+    border-radius: 50%;
+    margin-top: 3rem;
+    
+   
+}
+
+/*-------------------------Forth Container ------------------*/
+
+.forthContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    padding: 2rem 4rem;
+    margin: 2rem 4rem;
+    border-radius: 1rem;
+    /* background-color: rgba(128, 128, 128, 0.178); */
+    background-color: rgba(146, 26, 26, 0.452);
+    color: white;
+    color:black;
+   
+    
+}
+
+.forth_p h1{
+    font-size: 3rem;
+}
+
+.forth_img{
+    box-shadow: 1rem 1rem rgba(255, 255, 255, 0.479);
+    background-color: rgba(151, 0, 0, 0.418);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 800rem 1000rem 800rem 200rem;
+  
+}
+
+.forth_img img{
+    border-radius: 50%;
+    margin-top: 3rem;
+   
+}
+
+
+/*-------------------------Fifth Container ------------------*/
+
+.fifthContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    padding: 2rem 4rem;
+    margin: 2rem 4rem;
+    border-radius: 1rem;
+    /* background-color: rgba(128, 128, 128, 0.178); */
+    background-color: rgba(255, 0, 0, 0.534);
+}
+.fifth_p h1{
+    font-size: 3rem;
+}
+
+.fifth_img{
+    margin-left: 10rem;
+    background-color: rgba(175, 73, 73, 0.342);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 100rem 200rem 500rem 1000rem;
+    box-shadow: 1rem .5rem rgba(255, 255, 255, 0.596);
+}
+
+.fifth_img img{
+    border-radius: 50%;
+    margin-top: 3rem;
+   
+}
+
+
+/*-------------------------Customer Container ------------------*/
+
+.customerContainer{
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    margin: 1rem 4rem;
+    background-color: rgba(235, 158, 57, 0.308);
+    padding: 2rem;
+    border-radius: 1rem;
+    
+}
+
+
+.customergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    text-align:left;
+    align-items: center;
+  
+}
+
+#csFeedback{
+    grid-column: span 2;
+    text-align: left;
+    background-color:rgba(0, 128, 0, 0.418);
+    width: max-content;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.firstCustomer{
+    display: flex;
+    align-items: center;
+}
+
+.firstCustomer img{
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+
+/*-----second -----*/
+
+.baristaImage{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto auto;
+    width: max-content;
+    row-gap: .5rem;
+    column-gap: .5rem;
+    background-color: rgba(179, 3, 3, 0.24);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.baristaImage img {
+    border-radius: .5rem;
+}
+
+.baristaImage img:hover{
+    opacity: 50%;
+    transform: translate(-1%,2%);
+}
+/*-------------------------Contact Container ------------------*/
+.contactContainer{
+    margin: 2rem 4rem;
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    grid-template-rows: auto;
+    column-gap: 2rem;
+    background-color:rgba(235, 137, 9, 0.589);
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+.firstContact{
+
+    background-image: url(./images/b1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    padding: 2rem;
+    width: 500px;
+    color: rgb(0, 0, 0);
+    border-radius: 1rem;
+
+}
+
+#free{
+    color:white;
+    background-color:red;
+    padding: .4rem;
+    border-radius: .4rem;
+}
+
+.firstContact h1{
+    grid-column: span 2;
+}
+
+.firstContact  h3{
+    font-weight: bold;
+}
+.firstContact input{
+    font-family: bold;
+    margin-top: .5rem;
+    padding: .7rem;
+    border-radius: .5rem;
+    width: 200px;
+}
+
+.firstContact button{
+    grid-column: span 2;
+    text-align: center;
+    width: 220px;
+    height: 2.5rem;
+    border-radius: .4rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: rgb(128, 20, 20);
+  
+}
+
+.firstContact button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.secondContact img{
+    border-radius: 1rem;
+   
+}
+
+
+/*-------------------------Footer------------------------------*/
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    padding: 1rem 8rem;
+    background-color: antiquewhite;
+}
+
+footer h4{
+    margin-bottom: .8rem;
+}
+footer p{
+    margin-bottom: .3rem;
+}
